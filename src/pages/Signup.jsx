@@ -22,6 +22,7 @@ const Signup =  () => {
             },
             withCredentials: true
         })
+        toast.dismiss()
         setLoading(false)
         setRefresh(!refresh)
         setIsAuthenticated(true);
