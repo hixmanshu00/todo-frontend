@@ -59,7 +59,7 @@ const Tasks = ({refresh, setRefresh}) => {
       
        </div> 
        : 
-       <div className='text-5xl'> No tasks added</div>}
+       <div className='text-5xl text-center'> No tasks added</div>}
     </div>
   )
 }

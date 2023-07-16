@@ -15,7 +15,7 @@ import { server } from "./main"
 
 function App() {
   const {setUser, setIsAuthenticated,refresh, setLoading, loading} = useContext(context)
-  console.log("isLoaidin ", loading)
+  // console.log("isLoaidin ", loading)
 
   useEffect(() => {
     setLoading(true)
